@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'finally.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':  'django',
+        'NAME':  'jack_db',
         'USER':'root',
-        'PASSWORD':'root',
+        'PASSWORD':'123456',
         'HOST':'127.0.0.1',
         'PORT':'3306'
     }
